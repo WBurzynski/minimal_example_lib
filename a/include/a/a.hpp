@@ -10,13 +10,13 @@ namespace a {
     auto format_as(film f) { return fmt::underlying(f); }
 }
 
-class MyClassHolder
-{
-public:
-
-    void AddNewObject(const a::film &o);
-    const a::film & GetLastObject() const;
-
-private:
-    boost::container::vector<a::film> vector_;
-};
+//class MyClassHolder
+//{
+//public:
+//
+//    void AddNewObject(const a::film &o);
+//    const a::film & GetLastObject() const;
+//
+//private:
+//    boost::container::vector<a::film> vector_;
+//};

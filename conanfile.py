@@ -27,11 +27,11 @@ class Component():
 
 
 fmt = "fmt/9.1.0"
-boost = "boost/1.76.0"
+# boost = "boost/1.76.0"
 
 a = Component(
     name="a",
-    requires=(fmt,boost),
+    requires=(fmt,),
     libs=["a"],
     boost_extensions=["container"],
 )
